@@ -1,0 +1,23 @@
+{
+	"name": "creator",
+	"dependencies": {
+		"@faker-js/faker": "^8.4.1",
+		"@types/node": "^20.14.15",
+		"@types/underscore": "^1.11.15",
+		"axios": "^1.7.3",
+		"dotenv": "^16.4.5",
+		"husky": "^9.1.4",
+		"lint-staged": "^15.2.8",
+		"playwright": "^1.46.0",
+		"prettier": "3.2.5",
+		"ts-node": "^10.9.2",
+		"tsconfig-paths": "^4.2.0",
+		"typescript": "^5.5.4"
+	},
+	"scripts": {
+		"prepare": "husky",
+		"clean": "prettier . --write",
+		"app": "ts-node -r tsconfig-paths/register index.ts",
+		"debug": "ts-node -r tsconfig-paths/register debug.ts"
+	}
+}

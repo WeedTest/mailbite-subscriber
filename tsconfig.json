@@ -1,0 +1,11 @@
+{
+	"compilerOptions": {
+		"moduleResolution": "Node",
+		"target": "ESNext",
+		"baseUrl": "src",
+		"paths": {
+			"~/*": ["./*"]
+		}
+	},
+	"include": ["src", "index.ts"]
+}

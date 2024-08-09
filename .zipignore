@@ -1,0 +1,7 @@
+node_modules
+trash
+debug.ts
+pnpm-lock.yaml
+README.md
+todo.md
+storage/*.log
